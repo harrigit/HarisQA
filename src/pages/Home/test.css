@@ -1,0 +1,19 @@
+.text-dark{
+    color: #6774c4 !important;
+}
+
+.text-green{
+    color: #03913e !important;
+}
+
+.text-white{
+    color: #ffffff !important;
+}
+
+.design-circle{
+	color: #03913e !important;
+}
+
+.service-card:hover .design-circle{
+	color: #ffffff !important;
+}
