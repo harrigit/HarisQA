@@ -94,11 +94,10 @@ const Home = () => {
       link: "https://www.getzealous.com/",
     },
     {
-      portImage: "/assets/images/project6.png",
-      projectTitle: "Screen Mirroring App",
-      link: "https://play.google.com/store/apps/details?id=com.screenmirroring.chromecast.miracast.rokucast.castto.screencastapp",
+      portImage: "/assets/images/project7.png",
+      projectTitle: "Omningage",
+      link: "https://www.omningage.cloud/",
     },
-    
    
     
    
