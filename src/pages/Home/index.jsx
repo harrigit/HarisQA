@@ -817,10 +817,10 @@ const Home = () => {
                         data-icon="streamline:web"
                       ></span>
                     </div>
-                    <div className="text-white">Website</div>
+                    <div className="text-white">Github</div>
                   </div>
                   <div className="text-center fw-600 gray-text mt-3">
-                    https://de-ahmad.netlify.app/
+                  https://github.com/harrigit
                   </div>
                 </div>
               </div>
