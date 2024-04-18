@@ -46,8 +46,8 @@ const Header = () => {
 			setNavActive("Education");
 		} else if (location.hash === "#skills") {
 			setNavActive("skills");
-		} else if (location.hash === "#portfolio") {
-			setNavActive("portfolio");
+		} else if (location.hash === "#projects") {
+			setNavActive("Projects");
 		} else if (location.hash === "#contact") {
 			setNavActive("contact");
 		}
@@ -152,16 +152,16 @@ const Header = () => {
 							</Nav.Link>
 							<Nav.Link
 								as={Link}
-								to="#portfolio"
-								className={navActive == "portfolio" ? "active" : ""}
+								to="#Projects"
+								className={navActive == "Projects" ? "active" : ""}
 								onClick={() => {
-									handleClickScroll("portfolio");
+									handleClickScroll("Projects");
 									homeNav();
 
-									setNavActive("portfolio");
+									setNavActive("Projects");
 									setActive(!active);
 								}}>
-								Portfolio
+								Projects
 							</Nav.Link>
 							<Nav.Link
 								as={Link}

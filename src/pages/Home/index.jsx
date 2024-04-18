@@ -75,139 +75,35 @@ const Home = () => {
   const allProjects = [
     {
       portImage: "/assets/images/project3.png",
-      projectTitle: "House of Legends",
-      link: "https://www.houseoflegends.art/",
+     projectTitle: "Adepsi",
+      link: "https://www.adepsi.com/",
     },
     {
       portImage: "/assets/images/project2.png",
-      projectTitle: "Eazy OZ",
-      link: "https://www.easyoz.com.au/",
+      projectTitle: "Frich",
+      link: "https://www.getfrich.com/",
     },
     {
       portImage: "/assets/images/project4.png",
-      projectTitle: "Smartup",
-      link: "https://smartup.dk/",
+      projectTitle: "Umile",
+      link: "https://umile.co.nz/",
     },
     {
       portImage: "/assets/images/project5.png",
-      projectTitle: "Dox Token",
-      link: "https://doxtoken.com/",
+      projectTitle: "Zealous",
+      link: "https://www.getzealous.com/",
     },
     {
       portImage: "/assets/images/project6.png",
-      projectTitle: "YogF",
-      link: "https://yogf.org/",
+      projectTitle: "Screen Mirroring App",
+      link: "https://play.google.com/store/apps/details?id=com.screenmirroring.chromecast.miracast.rokucast.castto.screencastapp",
     },
-    {
-      portImage: "/assets/images/project1.png",
-      projectTitle: "Split Mart",
-      link: "https://splitmart.com/",
-    },
-    {
-      portImage: "/assets/images/project7.png",
-      projectTitle: "Lalaverse",
-      link: "https://lalaverse.world/",
-    },
-    {
-      portImage: "/assets/images/project8.png",
-      projectTitle: "Cleaning App",
-      link: "https://tarea.io/",
-    },
-    {
-      portImage: "/assets/images/project9.png",
-      projectTitle: "Job Connect",
-      link: "https://jobbconnect.com/",
-    },
-    {
-      portImage: "/assets/images/project10.png",
-      projectTitle: "Factor Medik",
-      link: "https://factormedik.com/",
-    },
-    {
-      portImage: "/assets/images/project11.png",
-      projectTitle: "Lumed Ai",
-      link: "https://app.lumed.ai/",
-    },
-    {
-      portImage: "/assets/images/project12.png",
-      projectTitle: "Frog Base",
-      link: "https://frogbase.de/",
-    },
-    {
-      portImage: "/assets/images/project13.png",
-      projectTitle: "ImedicBot",
-      link: "https://imedicbot.com/",
-    },
-    {
-      portImage: "/assets/images/project14.png",
-      projectTitle: "Empire Token",
-      link: "https://empiremigration.com/",
-    },
-    {
-      portImage: "/assets/images/project15.png",
-      projectTitle: "Fast Ad Copy",
-      link: "https://fastadcopy.ai/",
-    },
-    {
-      portImage: "/assets/images/project16.png",
-      projectTitle: "Crreo",
-      link: "https://www.crreo.ai/",
-    },
-    {
-      portImage: "/assets/images/project17.png",
-      projectTitle: "G-Link",
-      link: "https://g-link.ca/",
-    },
-    {
-      portImage: "/assets/images/project18.png",
-      projectTitle: "HD Maintenaince",
-      link: "https://hd-maintenance.netlify.app/#/",
-    },
-    {
-      portImage: "/assets/images/project19.png",
-      projectTitle: "Shahroze International",
-      link: "https://shahroze-international.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project20.png",
-      projectTitle: "Boombox Beats",
-      link: "https://boombox-beats.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project21.png",
-      projectTitle: "Hearts Poker",
-      link: "https://hearts-poker.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project22.png",
-      projectTitle: "Swap Up",
-      link: "https://swap-up.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project23.png",
-      projectTitle: "Toxic Deer",
-      link: "https://toxic-deer.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project24.png",
-      projectTitle: "Zinu",
-      link: "https://morpho-swap.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project25.png",
-      projectTitle: "Big Win Group",
-      link: "https://bwg-app.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project26.png",
-      projectTitle: "OAK City Properties",
-      link: "https://oak-city-properties.netlify.app/",
-    },
-    {
-      portImage: "/assets/images/project27.png",
-      projectTitle: "Reach Dao",
-      link: "https://reach-dao-v2.netlify.app/",
-    },
+    
+   
+    
+   
+    
+    
   ];
   const navigate = useNavigate();
 
@@ -758,15 +654,15 @@ const Home = () => {
         </div>
       </section>
 
-      {/* PORTFOLIO */}
+      {/* Projects */}
       <section
         className="port"
-        onMouseEnter={() => navigate("#portfolio")}
-        id="portfolio"
+        onMouseEnter={() => navigate("#Projects")}
+        id="Projects"
       >
         <div className="container" ref={sectionRef}>
           <div className="about-titles" data-aos="fade-up">
-            <h2 className="h-secondary">MY PORTFOLIO</h2>
+            <h2 className="h-secondary">MY Projects</h2>
             <span className="about-spans yellow-text">05.</span>
           </div>
           <div className="port-inner mt-5">
@@ -784,6 +680,7 @@ const Home = () => {
                         <div className="port-card">
                           <div className="port-img">
                             <img src={item.portImage} alt="port-1" />
+                            
                           </div>
                           <div className="overlay-port">
                             {/* <div className="port-circles">
